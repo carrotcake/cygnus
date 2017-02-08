@@ -1,1 +1,13 @@
 this is a file made by terell. don't delete! plz
+
+Inside this file contains data about program conventions
+and cake.
+
+Conventions
+-data in input and output through csv files
+	For reading in school classes:
+		-order of data: (code),(name),(hours),(credit),(weight)
+		credits: {value,value}
+	For reading in student data
+		-order of data: (id num),(last name)?,(first name)?,(classes)
+		classes: {(code 1),(code 2), ... , (class code 7)}
