@@ -18,7 +18,7 @@ import java.util.Random;
 public class StudentMaker {
 
     public static void createDummyStudents() throws IOException {
-        String[] names = new String[]{"John", "Marmian", "Mark", "Blanchard", "Ford", "Terrell", "John", "Doe", "Ben", "Johnson", "Alford", "Ryan", "Caleb", "Aaron"};
+        String[] names = new String[]{"John", "Marmion", "Mark", "Blanchard", "Ford", "Terrell", "John", "Doe", "Ben", "Johnson", "Alford", "Ryan", "Caleb", "Aaron"};
         Random r = new Random();
         ArrayList<Student> students = new ArrayList<>();
         for (int i = 0; i < names.length; i++) {
