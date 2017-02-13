@@ -5,6 +5,8 @@
  */
 package dummydata;
 
+import io.Schedule;
+import io.Student;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -18,7 +20,7 @@ import java.util.Random;
 public class StudentMaker {
 
     public static void createDummyStudents() throws IOException {
-        String[] names = new String[]{"John", "Marmion", "Mark", "Blanchard", "Ford", "Terrell", "John", "Doe", "Ben", "Johnson", "Alford", "Ryan", "Caleb", "Aaron"};
+        String[] names = new String[]{"John", "Marmion", "Mark", "Blanchard", "Ford", "Terrell", "John", "Doe", "Ben", "Johnson", "Alford", "Ryan", "Caleb", "Aaron", "Charles", "Koonce"};
         Random r = new Random();
         ArrayList<Student> students = new ArrayList<>();
         for (int i = 0; i < names.length; i++) {
