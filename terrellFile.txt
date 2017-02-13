@@ -11,3 +11,6 @@ Conventions
 	For reading in student data
 		-order of data: (id num),(last name)?,(first name)?,(classes)
 		classes: {(code 1),(code 2), ... , (class code 7)}
+
+List of things that the program must accomplish:
+goal 1: manages endorsements that each student has chosen
