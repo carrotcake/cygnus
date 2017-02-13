@@ -1,14 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package io;
 
+import java.util.ArrayList;
+
 /**
- *
- * @author johnson.benjamin
+ *  A class, including its class code, suffix, and prerequisite classes
+ * 
+ * @author me dude lmao
  */
 public class Class {
+    private short code;
+    private String suffix;
+    private ArrayList<Class> prerequisites;
+    
     
 }
