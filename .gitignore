@@ -7,3 +7,6 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
+/testingplayground/nbproject/private/
+/project/nbproject/private/
+/project/build/
