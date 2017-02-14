@@ -1,5 +1,5 @@
 
-package dummydata;
+package util;
 
 import io.Schedule;
 import io.Student;

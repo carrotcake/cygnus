@@ -1,6 +1,6 @@
 package main;
 
-import dummydata.StudentMaker;
+import util.StudentMaker;
 import java.io.IOException;
 
 /**
