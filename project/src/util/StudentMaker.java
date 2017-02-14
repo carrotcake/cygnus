@@ -24,9 +24,6 @@ public class StudentMaker {
 
                 int id = r.nextInt(1000000);//a random six-digit number
                 int[] courses = new int[8];
-                Schedule sch = new Schedule(courses);
-                Student stu = new Student(id, names[i], names[j], sch);
-                students.add(stu);
             }
         }
         Collections.sort(students);

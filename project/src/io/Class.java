@@ -9,9 +9,20 @@ import java.util.ArrayList;
  * @author me dude lmao
  */
 public class Class {
-    private short code;
-    private String suffix;
-    private ArrayList<Class> prerequisites;
+    private String code;
+    private ArrayList<String> prereq;
     
+    public Class(String c, ArrayList<String> prq){
+        code = c;
+        prereq = prq; 
+    }
+    
+    public String getCode(){
+        return code;
+    }
+    
+    public ArrayList<String> getPreReqs(){
+        return prereq;
+    }
     
 }

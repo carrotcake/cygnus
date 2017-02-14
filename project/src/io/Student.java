@@ -9,6 +9,7 @@ public class Student implements Comparable<Student> {
     private final int id;
     private String lName, fName;
     private Schedule s;
+    private int flags;
     
     /**
      * create a data file with basic student information
@@ -17,11 +18,11 @@ public class Student implements Comparable<Student> {
      * @param fName their first name
      * @param s the schedule of classes that they have
      */
-    public Student(int id, String lName, String fName, Schedule s) {
+    public Student(int id, String lName, String fName, int flags) {
         this.id = id;
         this.lName = lName;
         this.fName = fName;
-        this.s = s;
+        
     }
 
     public int compareTo(Student t) {
