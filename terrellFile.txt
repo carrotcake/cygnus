@@ -14,3 +14,12 @@ Conventions
 
 List of things that the program must accomplish:
 goal 1: manages endorsements that each student has chosen
+
+
+
+
+list of things we need to find out about:
+	- how "zero period" works
+	- what kind of credit categories classes are separated into
+	- how to manage different graduation plans (3year, 5year)
+	- add to this list if you are confused
