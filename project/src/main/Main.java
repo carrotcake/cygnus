@@ -13,7 +13,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
       //  StudentMaker.createDummyStudents();
-      Schedule.setNumberOfPeriods(7);
-      
+//      Schedule.setNumberOfPeriods(7);
+      Schedule s = new Schedule(1);
     }
 }
