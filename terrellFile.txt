@@ -6,7 +6,7 @@ and cake.
 Conventions
 -data in input and output through csv files
 	For reading in school classes:
-		-order of data: (code),(name),(hours),(credit),(weight)
+		-order of data: (code),(name),(category),(credit),(weight)
 		credits: {value,value}
 	For reading in student data
 		-order of data: (id num),(last name)?,(first name)?,(classes)

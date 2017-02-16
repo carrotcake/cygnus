@@ -12,8 +12,9 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-      //  StudentMaker.createDummyStudents();
+        //  StudentMaker.createDummyStudents();
 //      Schedule.setNumberOfPeriods(7);
-      Schedule s = new Schedule(1);
+        CourseLoader.loadCourses("testcourses");
+
     }
 }

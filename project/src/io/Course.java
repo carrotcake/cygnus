@@ -1,36 +1,47 @@
-
 package io;
 
 import java.util.ArrayList;
 import util.CourseList;
 
 /**
- *  A class, including its class code, suffix, and prerequisite classes
- * 
+ * A class, including its class code, suffix, and prerequisite classes
+ *
  * @author me dude lmao
  */
+//order of data: (code),(name),(category),(credit),(weight)
+
 public class Course {
-    private final String code;
-    private ArrayList<String> prereq;
-    public static CourseList<Course> courses = new CourseList<>(); 
-    public final int length;
+
+    public final String code, name;
+    private ArrayList<String> prereq, category;
+    public static CourseList<Course> courses = new CourseList<>();
+    public final int credit, weight;
     
+
     @SuppressWarnings("LeakingThisInConstructor") //dont tell me what to do bud
-    public Course(String c, ArrayList<String> prq, int l){
+    public Course(String c, String n, ArrayList<String> prq, int cr,int w) {
         code = c;
+        name = n;
         prereq = prq;
-        int index = courses.indexOfCode(c);
-        length = l;
-        courses.add(index,this); //this is ok
+        credit = cr;
+        weight = w;
     }
-    
-    public String getCode(){
+
+    public Course(String c, String n, String cat, int cr,int w) {
+        code = c;
+        name = n;
+        credit = cr;
+        category = new ArrayList();
+        category.add(cat);
+        weight = w;
+    }
+
+    public String getCode() {
         return code;
     }
-    
-    public ArrayList<String> getPreReqs(){
+
+    public ArrayList<String> getPreReqs() {
         return prereq;
     }
- 
-    
+
 }
