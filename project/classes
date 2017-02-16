@@ -1,4 +1,4 @@
-English
+~English
 1
 English for Speakers of Other Langs 1, 2
 1064, 1074
@@ -21,7 +21,7 @@ English 3
 English 3 AP (Lang and Comp)
 1344
 1
-IB English III
+IB English 3
 1344IB
 1
 English 4
@@ -33,12 +33,12 @@ English 4 Dual
 English 4 AP (Lit and Comp)
 1444
 1
-IB English IV
+IB English 4
 1444IB
 1
 Creative Writing
 1634
-Math
+~Math
 1
 Algebra 1
 4124
@@ -93,7 +93,7 @@ Calculus BC - AP
 1
 Statistics
 4594
-Science
+~Science
 1
 Integrated Physics and Chemistry
 3124
@@ -128,13 +128,13 @@ Physics C: Mechanics AP
 Physics 1 AP
 3464
 1
-IB Physics I
+IB Physics 1
 3464IB
 1
 Physics 2 AP
 3474
 1
-IB Physics II
+IB Physics 2
 3474IB
 1
 Biology AP
@@ -172,7 +172,7 @@ Plant & Soil Science: Adv.Floral Design
 1
 Adv. Animal Science
 8514
-Social Studies
+~Social Studies
 1
 World Geography
 2124
@@ -230,7 +230,7 @@ IB  Psychology HL
 1
 IB Theory of Knowledge
 2834IB
-Foreign Language
+~Foreign Language
 1
 Spanish for Native Speakers AP
 1484
@@ -253,7 +253,7 @@ Spanish 3 PreAP/IB
 Spanish 4 AP (Span. Lang. & Comp.)
 1534
 1
-IB Spanish Ab Initio I
+IB Spanish Ab Initio 1
 1534IB
 1
 IB Spanish IV
@@ -262,10 +262,10 @@ IB Spanish IV
 Spanish 5 AP (Span. Lit. & Comp.)
 1544
 1
-IB Spanish Ab Initio II
+IB Spanish Ab Initio 2
 1544IB
 1
-IB Spanish V
+IB Spanish 5
 1544IB
 1
 French 1
@@ -283,17 +283,17 @@ French 3 PreAP/IB
 French 4 AP
 1584
 1
-IB French IV
+IB French 4
 1584IB
-Fine Arts
+~Fine Arts
 1
-IB Visual Art I
+IB Visual Art 1
 1764IB
 1
-IB Visual Art II
+IB Visual Art 2
 1774IB
 1
-Honor Band I, II, III, IV
+Honor Band 1, 2, 3, 4
 5714, 5724, 5734, 5744
 1
 Drumline 1, 2, 3, 4
@@ -305,7 +305,7 @@ Jazz Band
 Percussion 1, 2, 3, 4
 5714P, 5724P, 5734P, 5744P
 1
-Symphonic Band I, II, III, IV
+Symphonic Band 1, 2, 3, 4
 5714S, 5724S, 5734S, 5744S
 1
 Wind Ensemble 1, 2, 3, 4
@@ -335,10 +335,10 @@ Art History AP
 Theatre Prod 1, 2, 3, 4
 7264, 7274, 7284, 7294
 1
-IB Theater I
+IB Theater 1
 7284IB
 1
-IB Theater II
+IB Theater 2
 7294IB
 1
 Competitive Choir
@@ -361,7 +361,7 @@ Tech Theatre 1, 2, 3, 4
 1
 Principles & Elements of Floral Design
 8474
-Journalism
+~Journalism
 1
 Journalism
 1704
@@ -375,10 +375,10 @@ Audio Video Production 1, 2, 3
 Video Editing
 1774
 1
-IB Film I
+IB Film 1
 1784IB
 1
-IB Film II
+IB Film 2
 1794IB
 1
 Newspaper 1, 2, 3
@@ -386,7 +386,7 @@ Newspaper 1, 2, 3
 1
 Yearbook 1, 2, 3, 4
 1854, 1864, 1874, 1884
-Speech & Debate
+~Speech & Debate
 1/2
 Teen Leadership
 1012
@@ -414,11 +414,11 @@ Principles of Architecture
 1
 Prins of Ag, Food & Natural Resources
 8404
-Health
+~Health
 1/2
 Health
 5902
-Health Occupations
+~Health Occupations
 1/2
 Medical Terminology
 5912
@@ -432,7 +432,7 @@ Nursing Assistant)
 2
 Pract. Health Science 2 – EMT
 5944
-Technology Education
+~Technology Education
 1
 Business Information Mgt. 1 (BIM1)
 8304
@@ -467,7 +467,7 @@ Digital & Interactive Multimedia
 1/2
 Video Game Design
 8602
-Business and Marketing Education–Business
+~Business and Marketing Education–Business
 1
 Principles. of Business, Marketing, and 
 Finance
@@ -488,7 +488,7 @@ Business Information Mgt. 2 (BIM2)
 Practicum in Business
 Management/Extended
 8974
-Business and Marketing Education–Finance
+~Business and Marketing Education–Finance
 1
 Principles. of Business, Marketing, and 
 Finance
@@ -500,12 +500,12 @@ Business Information Mgt. 1 (BIM1)
 Money Matters
 6024
 1
-Accounting I
+Accounting 1
 6314NH
 1
-Accounting II
+Accounting 2
 6324NH
-Business and Marketing Education–Marketing
+~Business and Marketing Education–Marketing
 1
 Principles. of Business, Marketing, and 
 Finance
@@ -522,7 +522,7 @@ Marketing Dynamics 1
 1
 Marketing Dynamics 2
 8964
-Agriculture, Food & Natural Resources-Floral Design
+~Agriculture, Food & Natural Resources-Floral Design
 1
 Principles & Elements of Floral Design
 8474
@@ -538,7 +538,7 @@ Horticulture
 1
 Ag. Field & Lab Exp. (Floral Design 3)
 8614
-Agriculture, Food & Natural Resources–Animal Science
+~Agriculture, Food & Natural Resources–Animal Science
 1/2
 Livestock Production
 8432
@@ -554,7 +554,7 @@ Adv. Animal Science
 1/2
 Small Animal Management
 8522
-Agriculture, Food & Natural Resources–Welding
+~Agriculture, Food & Natural Resources–Welding
 1
 Introduction to Welding
 8424
@@ -564,11 +564,11 @@ Welding 1
 2
 Welding 2
 8454
-Agriculture, Food & Natural Resources–Wildlife
+~Agriculture, Food & Natural Resources–Wildlife
 1
 Wildlife, Fisheries & Ecology Mgt.
 8494
-Family Consumer Science–Hospitality/Human Services
+~Family Consumer Science–Hospitality/Human Services
 1
 Fashion Marketing
 6054
@@ -593,28 +593,28 @@ Culinary Arts 1
 1
 Prac. In Culinary Arts
 8294
-Trade and Industrial Education–Architecture
+~Trade and Industrial Education–Architecture
 1/2
 Principles of Architecture
 8382
-Cosmetology
+~Cosmetology
 1
 Introduction to Cosmetology
 8644
 1
-Cosmetology I
+Cosmetology 1
 8654
 1
-Cosmetology II
+Cosmetology 2
 8664
-Automotive
+~Automotive
 1
-Automotive Technician I
+Automotive Technician 1
 8754
 1
-Automotive Technician II
+Automotive Technician 2
 8764
-PE & Athletics
+~PE & Athletics
 1/2
 PE 1
 5112
@@ -687,7 +687,7 @@ Cross Country
 1
 Athletic Training
 65334
-Other Electives
+~Other Electives
 1
 Student Leadership (Student Council)
 1054
