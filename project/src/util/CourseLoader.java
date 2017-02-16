@@ -41,6 +41,7 @@
  */
 package util;
 
+import io.Course;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -61,7 +62,7 @@ public class CourseLoader {
         }
         while (sc.hasNextLine()) {
             String[] s = sc.nextLine().split(","); // order of data: <code>,<name>,<category>,<credit>,<weight>
-            
+            Course c = new Course(s[0],s[1],s[2],Integer.parseInt(s[3]),Integer.parseInt(s[4]));
         }
 
     }
