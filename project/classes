@@ -294,32 +294,25 @@ IB Visual Art II
 1774IB
 1
 Honor Band I, II, III, IV
-5714, 5724,
-5734, 5744
+5714, 5724, 5734, 5744
 1
 Drumline 1, 2, 3, 4
-5714D, 5724D,
-5734D, 5744D
+5714D, 5724D, 5734D, 5744D
 1
 Jazz Band
-5714JZ, 5724JZ,
-5734JZ, 5744JZ
+5714JZ, 5724JZ, 5734JZ, 5744JZ
 1
 Percussion 1, 2, 3, 4
-5714P, 5724P,
-5734P, 5744P
+5714P, 5724P, 5734P, 5744P
 1
 Symphonic Band I, II, III, IV
-5714S, 5724S,
-5734S, 5744S
+5714S, 5724S, 5734S, 5744S
 1
 Wind Ensemble 1, 2, 3, 4
-5714W, 5724W,
-5734W, 5744W
+5714W, 5724W, 5734W, 5744W
 1
 Color Guard
-5754, 5764,
-5774, 5784
+5754, 5764, 5774, 5784
 1
 Art 4 Studio Art AP
 7084
@@ -340,8 +333,7 @@ Art History AP
 7194
 1
 Theatre Prod 1, 2, 3, 4
-7264, 7274,
-7284, 7294
+7264, 7274, 7284, 7294
 1
 IB Theater I
 7284IB
@@ -356,8 +348,7 @@ Competitive Choir
 7354
 1
 Beginning Choir 1, 2, 3, 4
-7484, 7494,
-7504, 7514
+7484, 7494, 7504, 7514
 1
 Performance Studies - Piano
 7564
@@ -378,7 +369,7 @@ Journalism
 Photojournalism
 1714
 1
-Audio Video Production 1, 2, & 3
+Audio Video Production 1, 2, 3
 1744, 1754, 1764
 1
 Video Editing
@@ -393,9 +384,8 @@ IB Film II
 Newspaper 1, 2, 3
 1804, 1814, 1824
 1
-Yearbook 1, 2, 3, & 4
-1854, 1864,
-1874, 1884
+Yearbook 1, 2, 3, 4
+1854, 1864, 1874, 1884
 Speech & Debate
 1/2
 Teen Leadership
@@ -447,7 +437,7 @@ Technology Education
 Business Information Mgt. 1 (BIM1)
 8304
 1
-Audio Video Production 1, 2, & 3
+Audio Video Production 1, 2, 3
 1744, 1754, 1764
 1
 Video Editing
@@ -632,12 +622,11 @@ PE 1
 PE 2
 5122
 1
-Weight Training 1, 2, & 3
+Weight Training 1, 2, 3
 5164, 5174, 5184
 1
 NJROTC 1, 2, 3, 4
-5524, 5534,
-5544, 5554
+5524, 5534, 5544, 5554
 1
 Drill Team Officer
 5564
@@ -649,15 +638,13 @@ Dance 2, 3, 4
 5584, 5594, 5604
 1
 Drill Team 1, 2, 3
-5614, 5624,
-5634, 5644
+5614, 5624, 5634, 5644
 1
-Drill Team Training 1 & 2
+Drill Team Training 1, 2
 5674, 5684
 1
 Cheerleading 1, 2, 3, 4
-5814, 5824,
-5834, 5844
+5814, 5824, 5834, 5844
 1
 Football
 65204
@@ -706,7 +693,7 @@ Student Leadership (Student Council)
 1054
 1
 ACADEC 1, 2, 3, 4
-7914NH-7944NH
+7914NH, 7924NH, 7934NH, 7944NH,
 1/2
 Office Aide
 9014
