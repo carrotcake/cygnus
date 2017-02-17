@@ -41,8 +41,8 @@ package util;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Scanner;
 
 /**
@@ -53,10 +53,10 @@ public class ClassReader {
 
     public static void reparseClasses(File file) throws FileNotFoundException, IOException {
         Scanner s = new Scanner(file);
-        FileWriter f = new FileWriter(new File("classes.csv"));
-        String subject = "", course = "", credit = "", code = "";
+        PrintWriter p = new PrintWriter(new File("classes.csv"));
+        String subject = "", name = "", credit = "", code = "";
         while (s.hasNextLine()) {
-            for (int i = 0; i < 2; i++) {
+            for (int i = 0; i < 3; i++) {
                 String data = s.nextLine();
                 if (data.contains("~")) {
                     subject = data.replace("~", "");
@@ -68,15 +68,18 @@ public class ClassReader {
                         credit = data;
                         break;
                     case 1:
-                        course = data;
+                        name = data;
                         break;
                     case 2:
                         code = data;
                         break;
                 }
             }
-            f.append(subject + "," + credit + "," + course  + "," + code + "\n");
+            if(name.split(",").length != code.split(",").length) {
+                System.out.println("search up: " + name);
+            }
+            p.println(subject + "," + credit + "," + name  + "," + code);
         }
-        f.close();
+        p.close();
     }
 }

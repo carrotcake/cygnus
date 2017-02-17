@@ -299,7 +299,7 @@ Honor Band 1, 2, 3, 4
 Drumline 1, 2, 3, 4
 5714D, 5724D, 5734D, 5744D
 1
-Jazz Band
+Jazz Band 1, 2, 3, 4
 5714JZ, 5724JZ, 5734JZ, 5744JZ
 1
 Percussion 1, 2, 3, 4
@@ -311,7 +311,7 @@ Symphonic Band 1, 2, 3, 4
 Wind Ensemble 1, 2, 3, 4
 5714W, 5724W, 5734W, 5744W
 1
-Color Guard
+Color Guard 1, 2, 3, 4
 5754, 5764, 5774, 5784
 1
 Art 4 Studio Art AP
@@ -357,7 +357,7 @@ Music Theory AP
 7574
 1
 Tech Theatre 1, 2, 3, 4
-7614, 7624, 7634
+7614, 7624, 7634, 7634
 1
 Principles & Elements of Floral Design
 8474
@@ -391,19 +391,16 @@ Yearbook 1, 2, 3, 4
 Teen Leadership
 1012
 1
-Principles. of Business, Marketing, and 
-Finance
+Principles. of Business, Marketing, and Finance
 6084
 1/2
 Professional Communication
 7022
 1
 Oral Interpretation 2, 3, 4
-7044NH, 7064NH,
-7074NH
+7044NH, 7064NH, 7074NH
 1
-Oral Interpretation 1/Professional 
-Communication
+Oral Interpretation 1/Professional Communication
 7054NH
 1/2
 Prin. of Human Services
@@ -426,8 +423,7 @@ Medical Terminology
 Principles of Health Science
 5932
 2
-Pract. Health Science 1 CNA (Certified
-Nursing Assistant)
+Pract. Health Science 1 CNA (Certified Nursing Assistant)
 5934
 2
 Pract. Health Science 2 – EMT
@@ -452,8 +448,7 @@ Computer Science 2, AP
 Computer Science 3, AP Principles
 4464
 1 to 2
-Independent Study Research in Information
-Technology Solutions
+Independent Study Research in Information Technology Solutions
 4494
 1
 Business Information Mgt. 2 (BIM2)
@@ -469,8 +464,7 @@ Video Game Design
 8602
 ~Business and Marketing Education–Business
 1
-Principles. of Business, Marketing, and 
-Finance
+Principles. of Business, Marketing, and Finance
 6084
 1
 Business Information Mgt. 1 (BIM1)
@@ -485,13 +479,11 @@ Business Law
 Business Information Mgt. 2 (BIM2)
 8314
 3
-Practicum in Business
-Management/Extended
+Practicum in Business Management/Extended
 8974
 ~Business and Marketing Education–Finance
 1
-Principles. of Business, Marketing, and 
-Finance
+Principles. of Business, Marketing, and Finance
 6084
 1
 Business Information Mgt. 1 (BIM1)
@@ -507,8 +499,7 @@ Accounting 2
 6324NH
 ~Business and Marketing Education–Marketing
 1
-Principles. of Business, Marketing, and 
-Finance
+Principles. of Business, Marketing, and Finance
 6084
 1
 Business Information Mgt. 1 (BIM1)
@@ -637,7 +628,7 @@ Dance 1
 Dance 2, 3, 4
 5584, 5594, 5604
 1
-Drill Team 1, 2, 3
+Drill Team 1, 2, 3, 4
 5614, 5624, 5634, 5644
 1
 Drill Team Training 1, 2
@@ -693,7 +684,7 @@ Student Leadership (Student Council)
 1054
 1
 ACADEC 1, 2, 3, 4
-7914NH, 7924NH, 7934NH, 7944NH,
+7914NH, 7924NH, 7934NH, 7944NH
 1/2
 Office Aide
 9014
@@ -703,4 +694,3 @@ Early Release 6th period
 1/2
 Early Release 7th period
 9074
-1/2
