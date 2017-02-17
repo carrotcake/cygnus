@@ -39,8 +39,11 @@
  */
 package main;
 
+import io.Course;
 import java.io.File;
 import java.io.IOException;
+import java.util.Arrays;
+import util.CourseLoader;
 
 /**
  *
@@ -49,6 +52,11 @@ import java.io.IOException;
 public class Main {
     
     public static void main(String[] args) throws IOException {
-        util.ClassReader.reparseClasses(new File("classes"));
+//        util.ClassReader.reparseClasses(new File("classes"));
+        Arrays.stream("hey man dont you know thats illegal".split(" ")).spliterator().forEachRemaining(x -> System.out.println(x));
+        CourseLoader.loadCourses("classes.csv");
+        for (int i = 0; i < Course.courses.size(); i++) {
+            System.out.println(Course.courses.get(i));
+        }
     }
 }
