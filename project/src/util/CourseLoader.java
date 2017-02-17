@@ -42,38 +42,29 @@
 package util;
 
 import io.Course;
-import java.util.ArrayList;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
 
 /**
  *
  * @author johnson.benjamin
  */
-public class CourseList<E extends Course> extends ArrayList<E> {
+public class CourseLoader {
 
-    public CourseList() {
-        super();
+    public static void loadCourses(String path) {
+        File f = new File(path);
+        Scanner sc;
+        try {
+            sc = new Scanner(f);
+        } catch (FileNotFoundException e) {
+            return;
+        }
+        while (sc.hasNextLine()) {
+            String[] s = sc.nextLine().split(","); // order of data: <code>,<name>,<category>,<credit>,<weight>
+            Course c = new Course(s[0],s[1],s[2],Integer.parseInt(s[3]),Integer.parseInt(s[4]));
+        }
+
     }
 
-    
-    
-    
-    public int indexOfCode(String s) {
-        int m = 0;
-            int l = 0;
-            int h = size() - 1;
-            while (l <= h) {
-                m = (l + h) >>> 1;
-                String mVal = ((Course) this.get(m)).getCode();
-                int cT = mVal.compareTo(s);
-                if (cT < 0) {
-                    l = m + 1;
-
-                } else if (cT > 0) {
-                    h = m - 1;
-                } else {
-                    return m;
-                }
-            }
-        return m;
-    }
 }
