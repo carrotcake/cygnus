@@ -63,7 +63,7 @@ public class ClassReader {
                     i--;
                     continue;
                 }
-                switch(i) {
+                switch (i) {
                     case 0:
                         credit = data;
                         break;
@@ -75,11 +75,19 @@ public class ClassReader {
                         break;
                 }
             }
-            if(name.split(",").length != code.split(",").length) {
+            if (name.split(",").length != code.split(",").length) {
                 System.out.println("search up: " + name);
             }
-            p.println(subject + "," + credit + "," + name  + "," + code);
+            p.println(code + "," + name + "," + subject + "," + credit + "," + getGPAWeight(name, code)); // order of data: <code>,<name>,<category>,<credit>,<weight>
         }
         p.close();
+    }
+
+    private static int getGPAWeight(String name, String code) {
+        if(code.endsWith("IB") || name.endsWith("AP"))
+            return 6;
+        if(name.contains("Dual"))
+            return 0;
+        return 5;
     }
 }
