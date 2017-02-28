@@ -51,8 +51,5 @@ public class Flags {
     public static final int f_ART   = 0x000000100;
     public static final int f_PUB   = 0x000001000;
     public static final int f_MULT  = 0x000010000;
-    public static final int f_4YEAR = 0x000100000;
-    public static final int f_3YEAR = 0x001000000;
-    public static final int f_5YEAR = 0x010000000;
     
 }
